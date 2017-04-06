@@ -55,6 +55,14 @@ a img {
     font-style: bold;
 }
 
+.siteLink {
+    color: #000;
+}
+
+.siteLink :hover{
+    color: #ed6e2f;
+}
+
 
 /* ids */
 #mainQuote{
