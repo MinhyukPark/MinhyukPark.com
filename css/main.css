@@ -59,7 +59,7 @@ a img {
     color: #000;
 }
 
-.siteLink :hover{
+.siteLink a:hover{
     color: #ed6e2f;
 }
 
