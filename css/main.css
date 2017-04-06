@@ -55,7 +55,7 @@ a img {
     font-style: bold;
 }
 
-.siteLink {
+.siteLink a:link{
     color: #000;
 }
 
