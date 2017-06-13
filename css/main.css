@@ -124,7 +124,11 @@ h3 {
 /* project demo images */
 #IlliniLaundryDemo {
   background: url('../img/IlliniLaundryDemo.jpg')no-repeat;
-  max-width: 50%
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  left: -200px;
+  bottom: -100px;
 
 }
 
