@@ -9,6 +9,33 @@
   clear: both;
 }
 
+/* wait I thought we weren't supposed to be using classes but everyone uses it anyway why tho */
+.quotes {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: left;
+  margin: 50px auto;
+}
+
+.author_name_white {
+  font-family:"Wellfleet";
+  margin: 70px 0 0 75px;
+  color: #fff;
+  font-size: 20px;
+} 
+.author_name_gray {
+  font-family:"Wellfleet";
+  margin: 70px 0 0 75px;
+  color: #94a4a4;
+  font-size: 20px;
+} 
+.quotes_container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* my mind's telling me noooo but my */
 body{
   margin: 0;
   padding: 0;
@@ -53,82 +80,126 @@ h3 {
   margin-top: 30px;
 }
 
+/* id nav */
 #nav {
   width: 410px;
   float: right;
   margin-top: 20px;
 }
-
-#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
 #nav ul{
-list-style: none;
-display: block;
-margin: 0 auto;
-list-style: none;
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  list-style: none;
 }
+
 #nav li{
-margin-top: 9px;
-float: left;
-padding-left: 21px;
+  margin-top: 9px;
+  float: left;
+  padding-left: 21px;
 }
-#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
-#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
-#nav li a:hover { color: #fff; opacity:1; }
-
-.quotes {
-font-family: 'Goudy Bookletter 1911', serif;
-font-weight: normal;
-font-size: 30px;
-text-align: left;
-margin: 50px auto;
+#nav li a {
+  color: #fff;
+  opacity:0.6;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: 'Wellfleet';
+}
+#nav li a.active {
+  color: #fff;
+  opacity:1;
+  border-bottom: 2px solid #fff;
+}
+#nav li a:hover {
+  color: #fff;
+  opacity:1;
 }
 
- .author_name_white { font-family:"Wellfleet"; margin: 70px 0 0 75px; color: #fff; font-size: 20px; } 
- .author_name_gray { font-family:"Wellfleet"; margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; } 
- .quotes_container { width: 800px; margin: 0 auto; }
+#logo a {
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  font-size: 30px;
+  margin-top: 20px;
+  color: #fff;
+  font-family:"Wellfleet";
+  font-weight: bold;
+}
 
- /* ids */
-#christmas_tree { background: url('../img/christmas-tree.png')no-repeat; width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px;}
-#divider { background: url('../img/divider.png')no-repeat; width: 300px; height: 35px; margin: 0px auto 27px auto; }
-#ribbon { background: url('../img/ribbon.png')no-repeat; width: 251px; height: 48px; margin: 0 auto; display: block; position: relative; top: -38px; }
-#snowflakes1 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto; display: block; position: relative; bottom: -54px; left: -102px; }
-#snowflakes2 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto; display: block; position: relative; bottom: -33px; right: -100px; }
+/* ids for images*/
+#divider {
+  background: url('../img/divider.png')no-repeat;
+  width: 300px; 
+  height: 35px;
+  margin: 0px auto 27px auto;
+}
+#ribbon {
+  background: url('../img/ribbon.png')no-repeat;
+  width: 251px;
+  height: 48px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: -38px;
+}
+#snowflakes1 {
+  background: url('../img/snowflakes.png')no-repeat;
+  width: 24px;
+  height: 21px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  bottom: -54px;
+  left: -102px;
+}
+#snowflakes2 {
+  background: url('../img/snowflakes.png')no-repeat;
+  width: 24px;
+  height: 21px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  bottom: -33px;
+  right: -100px;
+}
 
-#slide1, #slide2{ width: 100%; }
+/* projects or something like that */
 #slide1{
-background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
-color: #fff;
-height: 600px;
-margin: 0;
-padding: 200px 0 260px 0;
-background-size: cover;
+  background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 600px;
+  margin: 0;
+  padding: 200px 0 260px 0;
+  background-size: cover;
+  width: 100%;
 }
 #slide2{
-background-color: #fff;
-color: #333333;
-height: 300px;
-margin: 0 auto;
-overflow: hidden;
-padding: 200px 0;
+  background-color: #fff;
+  color: #333333;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0;
+  width: 100%;
 }
 #slide3{
-background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
-color: #fff;
-height: 600px;
-padding: 170px 0 0 0;
-background-size: cover;
+  background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 600px;
+  padding: 170px 0 0 0;
+  background-size: cover;
 }
 #slide4{
-background-color: #fff;
-color: #333333;
-height: 300px;
-padding: 200px 0;
+  background-color: #fff;
+  color: #333333;
+  height: 300px;
+  padding: 200px 0;
 }
 #slide5{
-background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
-height: 200px;
-margin: 0 auto;
-padding: 250px 0;
-color: #fff;
-background-size: cover;
+  background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+  height: 200px;
+  margin: 0 auto;
+  padding: 250px 0;
+  color: #fff;
+  background-size: cover;
 }
