@@ -165,7 +165,8 @@ h3 {
 
 /* projects or something like that */
 #Intro{
-  background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+  background:url('../img/Intro.jpg') 50% 0 no-repeat fixed;
+  /* (image source) Designed by Tirachard / Freepik */
   color: #fff;
   height: 600px;
   margin: 0;
