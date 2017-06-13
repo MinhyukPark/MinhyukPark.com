@@ -123,7 +123,11 @@ h3 {
 
 /* project demo images */
 #IlliniLaundryDemo {
-  background: url('../img/IlliniLaundryDemo.jpg')no-repeat
+  background: url('../img/IlliniLaundryDemo.jpg')no-repeat;
+  width: 300px;
+  height: 200px;
+  margin: 0px auto 30px auto;
+
 }
 
 /* projects or something like that */
