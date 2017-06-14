@@ -89,6 +89,10 @@ h3 {
   position: relative;
 }
 
+img {
+  margin: 0 10px
+}
+
 #header {
   width: 100%;
   background: url('../img/header-bg.png');
