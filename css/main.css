@@ -99,14 +99,14 @@ h3 {
 
 /* id nav */
 #nav {
-  width: 800px;
+  width: 700px;
   float: right;
   margin-top: 20px;
 }
 #nav ul{
   list-style: none;
   display: block;
-  margin: 0 0 0 300px;
+  margin: 0 0 0 250px;
   list-style: none;
 }
 
