@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .content{
-  margin: auto auto; width: 1200px;
+  margin: auto auto; width: 960px;
   }
 .clear {
   clear: both;
@@ -99,14 +99,14 @@ h3 {
 
 /* id nav */
 #nav {
-  width: 800px;
+  width: 600px;
   float: right;
   margin-top: 20px;
 }
 #nav ul{
   list-style: none;
   display: block;
-  margin: 0 100px;
+  margin: 0 auto;
   list-style: none;
 }
 
