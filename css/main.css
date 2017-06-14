@@ -48,7 +48,7 @@
   font-size: 20px;
 } 
 .project_description_right {
-  width: 400px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -168,7 +168,7 @@ h3 {
   width: 100%;
 }
 #slide3{
-  background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+  background: url(../img/Bardeen_Quad.jpeg) 50% 0 no-repeat fixed;
   color: #fff;
   height: 600px;
   padding: 170px 0 0 0;
@@ -181,7 +181,7 @@ h3 {
   padding: 200px 0;
 }
 #slide5{
-  background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+  background: url(../img/Illini_Union.jpg) 50% 0 no-repeat fixed;
   height: 200px;
   margin: 0 auto;
   padding: 250px 0;
