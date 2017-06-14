@@ -185,9 +185,8 @@ h3 {
 }
 #slide5{
   background: url(../img/Siebel.jpg) 50% 0 no-repeat fixed;
-  height: 200px;
-  margin: 0 auto;
-  padding: 250px 0;
   color: #fff;
+  height: 600px;
+  padding: 170px 0 0 0;
   background-size: cover;
 }
