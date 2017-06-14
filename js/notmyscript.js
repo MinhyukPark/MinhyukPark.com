@@ -10,7 +10,7 @@ $(document).ready(function() {
                 $(this).click(function() {
                     $("#nav li a").removeClass("active");
                     $(this).addClass('active');
-                    $('html, body').animate({scrollTop: targetOffset}, 200);
+                    $('html, body').animate({scrollTop: targetOffset}, 2000);
                     return false;
                 });
             }
