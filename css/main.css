@@ -177,10 +177,10 @@ h3 {
 #slide4{
   background-color: #fff;
   color: #333333;
-  height: 600px;
-  margin: 0;
-  padding: 200px 0 260px 0;
-  background-size: cover;
+  height: 500px;
+  margin: auto auto;
+  overflow: hidden;
+  padding: 150px 0;
   width: 100%;
 }
 #slide5{
