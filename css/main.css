@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .content{
-  margin: auto auto; width: 1200px;
+  margin: auto auto; width: 1600px;
   }
 .clear {
   clear: both;
@@ -133,6 +133,7 @@ h3 {
   float: left;
   font-size: 30px;
   margin-top: 20px;
+  margin-left: 100px;
   color: #fff;
   font-family:"Wellfleet";
   font-weight: bold;
