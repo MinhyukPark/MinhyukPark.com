@@ -24,6 +24,11 @@
     *zoom: 1;
 }
 
+.float-my-children > * {
+    float:left;
+    margin-right:5px;
+}
+
 /* wait I thought we weren't supposed to be using classes but everyone uses it anyway why tho */
 .project_description {
   font-family: 'Goudy Bookletter 1911', serif;
