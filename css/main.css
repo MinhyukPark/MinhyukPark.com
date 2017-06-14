@@ -9,13 +9,28 @@
   clear: both;
 }
 
+/* stackoverflow linked to http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
 /* wait I thought we weren't supposed to be using classes but everyone uses it anyway why tho */
 .project_description {
   font-family: 'Goudy Bookletter 1911', serif;
   font-weight: normal;
   font-size: 30px;
   text-align: left;
-  margin: 50px auto;
+  margin: 0 0;
 }
 
 .author_name_white {
