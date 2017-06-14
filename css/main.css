@@ -162,9 +162,9 @@ h3 {
   background-color: #fff;
   color: #333333;
   height: 300px;
-  margin: 0 auto;
+  margin: auto auto;
   overflow: hidden;
-  padding: 200px 0;
+  padding: 0 0;
   width: 100%;
 }
 #slide3{
