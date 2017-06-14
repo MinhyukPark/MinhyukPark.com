@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .content{
-  margin: auto auto; width: 1200px;
+  margin: auto auto; width: 960px;
   }
 .clear {
   clear: both;
@@ -106,7 +106,7 @@ h3 {
 #nav ul{
   list-style: none;
   display: block;
-  margin: 0 0 0 250px;
+  margin: 0 0 0 200px;
   list-style: none;
 }
 
