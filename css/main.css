@@ -177,8 +177,11 @@ h3 {
 #slide4{
   background-color: #fff;
   color: #333333;
-  height: 300px;
-  padding: 200px 0;
+  height: 600px;
+  margin: 0;
+  padding: 200px 0 260px 0;
+  background-size: cover;
+  width: 100%;
 }
 #slide5{
   background: url(../img/Illini_Union.jpg) 50% 0 no-repeat fixed;
