@@ -87,8 +87,8 @@ h3 {
   padding: 0 0;
   z-index: 1;
   position: relative;
-  left: 600px;
-  /*float: right;*/
+  left: 400px;
+  float: right;
 }
 
 #header {
