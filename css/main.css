@@ -112,7 +112,7 @@ h3 {
 }
 
 #nav li{
-  float: left;
+  float: right;
   padding-left: 40px;
 }
 #nav li a {
