@@ -7,7 +7,7 @@
   width: 50vw;
   }
 
-.headercontent{
+.header_content{
   margin: auto auto;
   width: 75vw;
 }
@@ -59,6 +59,10 @@
   margin: 0 auto;
 }
 
+.title_message{
+  margin: 200px 0;
+}
+
 /* my mind's telling me noooo but my */
 body{
   margin: 0;
@@ -73,7 +77,7 @@ h1 {
   font-size: 55px;
   text-align: center;
   color: #fff;
-  margin: 200px;
+  margin: 0;
   padding: 0;
 }
 h2 {
