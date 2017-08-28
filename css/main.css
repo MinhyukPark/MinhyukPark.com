@@ -165,7 +165,7 @@ h3 {
   color: #333333;
   height: 100%;
   margin: auto auto;
-  overflow: hidden;
+  overflow: visible;
   padding: 150px 0;
   width: 100%;
 }
