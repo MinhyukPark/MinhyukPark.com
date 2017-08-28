@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .content{
-  margin: auto auto; width: 960px;
+  margin: auto auto; width: 100vw;
   }
 .clear {
   clear: both;
