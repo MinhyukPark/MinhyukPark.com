@@ -13,7 +13,7 @@
 /* tell the container's children to float left: */
 .float-my-children > * {
     float:left;
-    margin-right:0px;
+    margin-right:200 px;
 }
 .clearfix {
     *zoom:1 /* for IE */
