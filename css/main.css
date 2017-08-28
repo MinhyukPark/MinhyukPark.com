@@ -109,6 +109,7 @@ h3 {
 #nav ul{
   list-style: none;
   display: block;
+  float: right;
   list-style: none;
 }
 
