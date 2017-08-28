@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .content{
-  margin: auto auto; width: 960px;
+  margin: 100px 0; width: 960px;
   }
 .clear {
   clear: both;
@@ -83,7 +83,6 @@ h3 {
   font-weight: normal;
   font-size: 16px;
   text-align: left;
-  margin: 100px 0;
   padding: 0 0;
   z-index: 1;
   position: relative;
