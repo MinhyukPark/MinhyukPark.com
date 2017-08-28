@@ -155,9 +155,8 @@ h3 {
   background:url('../img/Intro.jpg') 50% 0 no-repeat fixed;
   /* (image source) Designed by Tirachard / Freepik */
   color: #fff;
-  height: 600px;
-  margin: 0;
-  padding: 200px 0 260px 0;
+  height: 100vh;
+  margin: auto auto;
   background-size: cover;
   width: 100%;
 }
@@ -166,29 +165,30 @@ h3 {
   color: #333333;
   height: 100vh;
   margin: auto auto;
-  overflow: visible;
+  overflow: hidden;
   width: 100%;
 }
 #June23{
   background: url(../img/Bardeen_Quad.jpg) 50% 0 no-repeat fixed;
   color: #fff;
-  height: 600px;
-  padding: 170px 0 0 0;
+  height: 100vh;
+  margin: auto auto;
+  overflow: hidden;
   background-size: cover;
 }
 #June30{
   background-color: #fff;
   color: #333333;
-  height: 500px;
+  height: 100vh;
   margin: auto auto;
   overflow: hidden;
-  padding: 150px 0;
   width: 100%;
 }
 #July7{
   background: url(../img/Siebel.jpg) 50% 0 no-repeat fixed;
   color: #fff;
-  height: 600px;
-  padding: 170px 0 0 0;
+  height: 100vh;
+  margin: auto auto;
+  overflow: hidden;
   background-size: cover;
 }
