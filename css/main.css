@@ -102,14 +102,13 @@ h3 {
 
 /* id nav */
 #nav {
-  width: 50vw;
+  width: 75vw;
   float: right;
   margin-top: 20px;
 }
 #nav ul{
   list-style: none;
   display: block;
-  margin: 0 0 0 200px;
   list-style: none;
 }
 
