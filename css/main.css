@@ -73,7 +73,7 @@ h1 {
   font-size: 55px;
   text-align: center;
   color: #fff;
-  margin: 0;
+  margin: 200px;
   padding: 0;
 }
 h2 {
@@ -109,7 +109,7 @@ h3 {
 /* id nav */
 #nav {
   width: 75vw;
-  margin-top: -40px; /* feels like a hack */
+  margin-top: -45px; /* feels like a hack */
   float: right;
 }
 #nav ul{
