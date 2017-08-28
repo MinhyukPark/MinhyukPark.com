@@ -103,7 +103,7 @@ h3 {
   background: url('../img/header-bg.png');
   height: 80px;
   position: fixed;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
 }
 
 /* id nav */
