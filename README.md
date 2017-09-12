@@ -5,6 +5,8 @@
 ## TODO
 
 ~Fix unsafe script error~ Completed 9/12/17
+
+Fix favicon
 ## Citation
 Some useful websites I referenced as I was building the website
 
