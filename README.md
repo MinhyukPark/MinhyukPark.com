@@ -4,7 +4,7 @@
 [MinhyukPark.com](https://minhyukpark.com "Minhyuk Park's Website")
 ## TODO
 
-Fix unsafe script error
+~Fix unsafe script error~ Completed 9/12/17
 ## Citation
 Some useful websites I referenced as I was building the website
 
