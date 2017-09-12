@@ -2,7 +2,9 @@
 *Work in Progress*
 
 [MinhyukPark.com](https://minhyukpark.com "Minhyuk Park's Website")
+## TODO
 
+Fix unsafe script error
 ## Citation
 Some useful websites I referenced as I was building the website
 
