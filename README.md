@@ -6,6 +6,8 @@
 
 ~Fix unsafe script error~ Completed 9/12/17
 
+Add content instead of dummy data for pages
+
 Fix favicon
 ## Citation
 Some useful websites I referenced as I was building the website
