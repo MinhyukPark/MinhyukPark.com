@@ -1,6 +1,8 @@
 # Minhyuk Park's website
 *Work in Progress*
 
+*Since school is my priority at the moment, I tend to not do a lot of work on the website during the semester.*
+
 [MinhyukPark.com](https://minhyukpark.com "Minhyuk Park's Website")
 ## TODO
 
