@@ -169,11 +169,10 @@ h3 {
   color: #262626;
   text-decoration: none;
   float: left;
-  font-size: 22px;
+  font-size: 25px;
   margin-top: 10px;
-  color: #fff;
-  font-family: Oswald;
-  font-weight: bold;
+  font-family: "Wellfleet";
+  font-weight: italic;
 }
 
 #link_meta {
