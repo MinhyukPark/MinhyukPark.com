@@ -165,6 +165,17 @@ h3 {
   font-weight: bold;
 }
 
+#repo_link a {
+  color: #262626;
+  text-decoration: none;
+  float: left;
+  font-size: 22px;
+  margin-top: 10px;
+  color: #fff;
+  font-family: Oswald;
+  font-weight: bold;
+}
+
 #link_meta {
   padding: 0 0;
   z-index: 1;
