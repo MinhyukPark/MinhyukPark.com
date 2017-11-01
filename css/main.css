@@ -15,11 +15,6 @@
   clear: both;
 }
 
-.links_meta {
-  margin: 0 0 0 0;
-  margin-left: 0px;
-  margin-right: 0px;
-}
 
 /* stackoverflow linked to http://nicolasgallagher.com/micro-clearfix-hack/ */
 /* tell the container's children to float left: */
@@ -169,6 +164,15 @@ h3 {
   font-family:"Wellfleet";
   font-weight: bold;
 }
+
+#link_meta {
+  padding: 0 0;
+  z-index: 1;
+  position: relative;
+  left: 200px;
+  float: right; 
+}
+
 
 /* project demo images */
 #IlliniLaundryDemo {
