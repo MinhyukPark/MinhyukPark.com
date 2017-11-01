@@ -40,7 +40,7 @@
     clear: both;
 }
 
-.float_custom {
+.float_custom > * {
   float: left;
 }
 
