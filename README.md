@@ -2,13 +2,13 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://MinhyukPark.com)
 
-built with :heartpulse:
-
-Signed using GPG  
-
 *Work in Progress*
 
-*Since school is my priority at the moment, I tend to not do a lot of work on the website during the semester.*
+built with :heartpulse:
+
+:lock: Signed using GPG
+
+:mortar_board:*Since school is my priority at the moment, I tend to not do a lot of work on the website during the semester.*
 
 [MinhyukPark.com](https://minhyukpark.com "Minhyuk Park's Website")
 ## TODO
