@@ -102,7 +102,7 @@ h3 {
   text-align: left;
   /*margin: 5px 0;*/
   padding: 0 0;
-  z-index: -1;
+  z-index: 0;
   position: relative;
   left: 200px;
   float: right;
@@ -212,7 +212,7 @@ h3 {
   margin: auto auto;
   background-size: cover;
   width: 100%;
-  z-index: 0;
+  z-index: -1;
 }
 #IlliniLaundry{
   background-color: #fff;
@@ -221,7 +221,7 @@ h3 {
   margin: auto auto;
   overflow: hidden;
   width: 100%;
-  z-index: 0;
+  z-index: -1;
 }
 #HackIllinois{
   background: url(../img/Bardeen_Quad.jpg) 50% 0 no-repeat fixed;
@@ -230,7 +230,7 @@ h3 {
   margin: auto auto;
   overflow: hidden;
   background-size: cover;
-  z-index: 0;
+  z-index: -1;
 }
 #ACMChatbot{
   background-color: #fff;
@@ -239,7 +239,7 @@ h3 {
   margin: auto auto;
   overflow: hidden;
   width: 100%;
-  z-index: 0;
+  z-index: -1;
 }
 #andmore{
   background: url(../img/Siebel.jpg) 50% 0 no-repeat fixed;
@@ -248,5 +248,5 @@ h3 {
   margin: auto auto;
   overflow: hidden;
   background-size: cover;
-  z-index: 0;
+  z-index: -1;
 }
