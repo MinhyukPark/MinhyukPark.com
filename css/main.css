@@ -135,14 +135,14 @@ h3 {
   color: #fff;
   opacity:0.6;
   font-size: 16px;
-  z-index: 1;
+  z-index: 4;
   text-decoration: none;
   font-family: 'Wellfleet';
   position: relative;
 }
 #nav li a:hover {
   color: #fff;
-  z-index: 1;
+  z-index: 4;
   opacity:1;
 }
 
