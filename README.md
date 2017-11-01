@@ -1,4 +1,10 @@
 # Minhyuk Park's website
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://MinhyukPark.com)
+
+built with :heartpulse:
+
 *Work in Progress*
 
 *Since school is my priority at the moment, I tend to not do a lot of work on the website during the semester.*
@@ -6,9 +12,11 @@
 [MinhyukPark.com](https://minhyukpark.com "Minhyuk Park's Website")
 ## TODO
 
+Fix Navigation Links becoming unclickable when scrolling over project descriptions
+
 ~Fix unsafe script error~ Completed 9/12/17
 
-Add content instead of dummy data for pages
+~Add content instead of dummy data for pages~ Completed 10/31/17
 
 Fix favicon
 ## Citation
