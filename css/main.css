@@ -15,6 +15,10 @@
   clear: both;
 }
 
+.links_meta {
+  margin: 150px 0;
+}
+
 /* stackoverflow linked to http://nicolasgallagher.com/micro-clearfix-hack/ */
 /* tell the container's children to float left: */
 .float-my-children > * {
@@ -191,7 +195,7 @@ h3 {
   overflow: hidden;
   width: 100%;
 }
-#July7{
+#andmore{
   background: url(../img/Siebel.jpg) 50% 0 no-repeat fixed;
   color: #fff;
   height: 100vh;
