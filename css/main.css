@@ -16,7 +16,8 @@
 }
 
 .links_meta {
-  margin: 150px 0px 0px 200px;
+  margin: 150px 0px;
+  margin-left: 200px;
 }
 
 /* stackoverflow linked to http://nicolasgallagher.com/micro-clearfix-hack/ */
@@ -173,7 +174,7 @@ h3 {
 }
 #IlliniLaundry{
   background-color: #fff;
-  color: #333333;
+  color: #666666;
   height: 100vh;
   margin: auto auto;
   overflow: hidden;
@@ -181,7 +182,7 @@ h3 {
 }
 #HackIllinois{
   background: url(../img/Bardeen_Quad.jpg) 50% 0 no-repeat fixed;
-  color: #333333;
+  color: #4d4d4d;
   height: 100vh;
   margin: auto auto;
   overflow: hidden;
@@ -189,7 +190,7 @@ h3 {
 }
 #ACMChatbot{
   background-color: #fff;
-  color: #333333;
+  color: #262626;
   height: 100vh;
   margin: auto auto;
   overflow: hidden;
