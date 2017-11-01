@@ -165,6 +165,11 @@ h3 {
   font-weight: bold;
 }
 
+#link_logo a:hover {
+  text-shadow: 2px 2px 10px #262626;
+  filter: dropshadow(color=#262626, offx=2, offy=2);
+}
+
 #repo_link a {
   color: #262626;
   text-decoration: none;
@@ -172,7 +177,12 @@ h3 {
   font-size: 25px;
   margin-top: 10px;
   font-family: "Wellfleet";
-  font-style: italic;
+  opacity: 0.7;
+}
+
+#repo_link a:hover {
+  color: #000000;
+  opacity: 0.7;
 }
 
 #link_meta {
