@@ -138,6 +138,7 @@ h3 {
   z-index: 1;
   text-decoration: none;
   font-family: 'Wellfleet';
+  position: relative;
 }
 #nav li a:hover {
   color: #fff;
