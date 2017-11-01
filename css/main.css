@@ -40,6 +40,10 @@
     clear: both;
 }
 
+.float_custom {
+  float: left;
+}
+
 /* wait I thought we weren't supposed to be using classes but everyone uses it anyway why tho */
 .project_description {
   font-family: 'Goudy Bookletter 1911', serif;
