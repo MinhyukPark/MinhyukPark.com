@@ -141,6 +141,7 @@ h3 {
 }
 #nav li a:hover {
   color: #fff;
+  z-index: 1;
   opacity:1;
 }
 
