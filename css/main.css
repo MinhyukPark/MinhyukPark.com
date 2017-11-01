@@ -153,6 +153,18 @@ h3 {
   font-weight: bold;
 }
 
+#link_logo a {
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-right: 100px;
+  color: #fff;
+  font-family:"Wellfleet";
+  font-weight: bold;
+}
+
 /* project demo images */
 #IlliniLaundryDemo {
   background: url('../img/IlliniLaundryDemo.jpg')no-repeat;
