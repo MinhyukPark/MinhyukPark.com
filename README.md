@@ -2,7 +2,7 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://MinhyukPark.com)
 
-*Work in Progress*
+:hourglass: *Work in Progress*
 
 built with :heartpulse:
 
