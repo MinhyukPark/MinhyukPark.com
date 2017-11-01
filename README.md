@@ -5,6 +5,8 @@
 
 built with :heartpulse:
 
+Signed using GPG  
+
 *Work in Progress*
 
 *Since school is my priority at the moment, I tend to not do a lot of work on the website during the semester.*
