@@ -6,9 +6,11 @@
 [MinhyukPark.com](https://minhyukpark.com "Minhyuk Park's Website")
 ## TODO
 
+Fix Navigation Links becoming unclickable when scrolling over project descriptions
+
 ~Fix unsafe script error~ Completed 9/12/17
 
-Add content instead of dummy data for pages
+~Add content instead of dummy data for pages~ Completed 10/31/17
 
 Fix favicon
 ## Citation
