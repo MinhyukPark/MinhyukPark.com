@@ -212,6 +212,7 @@ h3 {
   margin: auto auto;
   background-size: cover;
   width: 100%;
+  z-index: 0;
 }
 #IlliniLaundry{
   background-color: #fff;
@@ -220,6 +221,7 @@ h3 {
   margin: auto auto;
   overflow: hidden;
   width: 100%;
+  z-index: 0;
 }
 #HackIllinois{
   background: url(../img/Bardeen_Quad.jpg) 50% 0 no-repeat fixed;
@@ -228,6 +230,7 @@ h3 {
   margin: auto auto;
   overflow: hidden;
   background-size: cover;
+  z-index: 0;
 }
 #ACMChatbot{
   background-color: #fff;
@@ -236,6 +239,7 @@ h3 {
   margin: auto auto;
   overflow: hidden;
   width: 100%;
+  z-index: 0;
 }
 #andmore{
   background: url(../img/Siebel.jpg) 50% 0 no-repeat fixed;
@@ -244,4 +248,5 @@ h3 {
   margin: auto auto;
   overflow: hidden;
   background-size: cover;
+  z-index: 0;
 }
