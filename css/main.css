@@ -9,7 +9,7 @@
 
 .header_content{
   margin: auto auto;
-  width: 75vw;
+  width: 100vw;
 }
 .clear {
   clear: both;
@@ -20,17 +20,20 @@
 /* tell the container's children to float left: */
 .float-my-children > * {
     float:left;
-    margin: 150px 0 0 0;
+    margin-top:20%;
     margin-right:0px;
 }
+
 .clearfix {
     *zoom:1 /* for IE */
 }
+
 .clearfix:before,
 .clearfix:after {
     content: " ";
     display: table;
 }
+
 .clearfix:after {
     clear: both;
 }
@@ -41,12 +44,14 @@
 }
 
 /* wait I thought we weren't supposed to be using classes but everyone uses it anyway why tho */
+/*
 .project_description {
   font-family: 'Goudy Bookletter 1911', serif;
   font-weight: normal;
   font-size: 30px;
   margin: 0 0;
 }
+*/
 
 .author_name_white {
   font-family:"Wellfleet";
@@ -60,14 +65,17 @@
   color: #94a4a4;
   font-size: 20px;
 } 
+/*
 .project_description_right {
   width: 800px;
   margin: 0 auto;
 }
-
+*/
+/*
 .title_message{
   margin: 200px 0;
 }
+*/
 
 /* my mind's telling me noooo but my */
 body{
@@ -111,30 +119,34 @@ h3 {
 #header {
   width: 100%;
   background: url('../img/header-bg.png');
-  height: 80px;
+  height: 7%;
   position: fixed;
-  margin-top: 30px;
+  margin-top: 3%;
 }
 
 /* id nav */
 #nav {
-  width: 75vw;
-  margin-top: -45px; /* feels like a hack */
+  width: 65vw;
   float: right;
+  margin-right: 0px;
 }
+
 #nav ul{
   list-style: none;
   float: right;
 }
 
 #nav li{
-  float: left;
-  padding-left: 40px;
+  margin-top: 25px;
+  list-style: none;
+  margin-right: 5%;
+  float: right;
 }
+
 #nav li a {
   color: #fff;
   opacity:0.6;
-  font-size: 16px;
+  font-size: 15px;
   z-index: 4;
   text-decoration: none;
   font-family: 'Wellfleet';
@@ -146,17 +158,20 @@ h3 {
   opacity:1;
 }
 
+/* main MINHYUK PARK */
 #logo a {
   color: #fff;
   text-decoration: none;
   float: left;
+  margin-left: 10%;
   font-size: 30px;
-  margin-top: 20px;
+  margin-top: 15px;
   color: #fff;
   font-family:"Wellfleet";
   font-weight: bold;
 }
 
+/* github link*/ 
 #link_logo a {
   color: #fff;
   text-decoration: none;
