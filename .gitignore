@@ -1,1 +1,4 @@
 *.komodoproject
+Gemfile
+Gemfile.lock
+_site/
