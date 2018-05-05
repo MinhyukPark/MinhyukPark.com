@@ -1,3 +1,22 @@
 ---
 layout: blog
 ---
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h3>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+     </h3>
+
+      <div class="brief_summary">
+        {{ post.excerpt }}
+      </div>
+
+      <div id="post_link">
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </div>
+    </article>
+  {% endfor %}
+</div>
