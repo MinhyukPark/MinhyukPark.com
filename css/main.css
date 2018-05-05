@@ -117,10 +117,13 @@ h2 {
   font-weight: normal;
   font-size: 40px;
   text-align: center;
-  color: #fff;
-  margin: 0;
+  color: #313128;
+  margin: auto;
   padding: 0;
+  max-height: 100%;
+  overflow: hidden;
 }
+
 h3 {
   /* font-family: "champagne_bold"; */
   font-family: "Arvo";
@@ -140,6 +143,33 @@ h3 {
   position: fixed;
   margin-top: 3vh;
 }
+
+
+#blog_header {
+  width: 100%;
+  background: url('../img/blog_header.jpg');
+  background-position: 0% 50%;
+  background-size: cover;
+  height: 40vh; 
+  position: relative;
+  border-bottom: 6px solid #DC143C; 
+  
+}
+
+#blog_header_center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#blog_header_title {
+    display: inline-block;
+    height: 20%;
+    background-color: #fff;
+    margin-left: 10vw;
+    margin-top: 25vh;
+}
+
 
 
 #mobile_header {
@@ -347,10 +377,29 @@ p {
   float: left; 
 }
 
+#link_blog a {
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  font-size: 30px;
+  margin-top: 20vh;
+  margin-left: 20vw;
+  color: #fff;
+  font-family:"champagne";
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+/* github */
+#link_blog a:hover {
+  text-shadow: 2px 2px 10px #262626;
+  filter: dropshadow(color=#262626, offx=2, offy=2);
+}
+
+
 
 /* project demo images */
 #IlliniLaundryDemo {
-  pointer-events: none;
   background: url('../img/IlliniLaundryDemo.jpg')no-repeat;
   width: 30%;
   margin: 0 0;
@@ -360,7 +409,6 @@ p {
 
 /* projects or something like that */
 #Intro{
-  pointer-events: none;
   background:url('../img/Intro.jpg') 50% 0 no-repeat fixed;
   /* (image source) Designed by Tirachard / Freepik */
   color: #fff;
@@ -370,7 +418,6 @@ p {
   width: 100%;
 }
 #IlliniLaundry{
-  pointer-events: none;
   background-color: #fff;
   color: #4d4d4d;
   height: 100vh;
@@ -379,7 +426,6 @@ p {
   width: 100%;
 }
 #HackIllinois{
-  pointer-events: none;
   background: url(../img/Bardeen_Quad.jpg) 50% 0 no-repeat fixed;
   color: #4d4d4d;
   height: 100vh;
@@ -388,7 +434,6 @@ p {
   background-size: cover;
 }
 #ACMChatbot{
-  pointer-events: none;
   background-color: #fff;
   color: #4d4d4d;
   height: 100vh;
@@ -397,7 +442,6 @@ p {
   width: 100%;
 }
 #andmore{
-  pointer-events: none;
   background: url(../img/Siebel.jpg) 50% 0 no-repeat fixed;
   color: #fff;
   height: 100vh;
