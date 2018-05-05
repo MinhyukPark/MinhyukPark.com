@@ -13,15 +13,20 @@ built with :heartpulse:
 [MinhyukPark.com](https://minhyukpark.com "Minhyuk Park's Website")
 ## TODO
 
-Fix Navigation Links becoming unclickable when scrolling over project descriptions
+Add HTTPS support
+
+~Fix Navigation Links becoming unclickable when scrolling over project descriptions~ Completed 5/4/18
 
 ~Fix unsafe script error~ Completed 9/12/17
 
 ~Add content instead of dummy data for pages~ Completed 10/31/17
 
 Fix favicon
+
 ## Citation
-Some useful websites I referenced as I was building the website
+Special thanks to all of these sites below!
+
+[w3Schools.com](https://www.w3schools.com/cssrefl "css reference")
 
 [Parallax Scrolling Effect](https://1stwebdesigner.com/parallax-scrolling-tutorial/ "1stWebdesigner tutorial")
 

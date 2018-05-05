@@ -117,12 +117,11 @@ h3 {
   /* font-family: "champagne_bold"; */
   font-family: "Arvo";
   font-weight: normal;
-  font-size: 30px;
+  font-size: 26px;
   letter-spacing: 3px;
   text-align: left;
   /*margin: 5px 0;*/
   padding: 0 0;
-  z-index: 0;
   position: relative;
 }
 
@@ -131,12 +130,15 @@ h3 {
   background: url('../img/header-bg.png');
   height: 7%;
   position: fixed;
-  margin-top: 3%;
+  margin-top: 3vh;
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+p {
 }
 
 #img {
@@ -153,6 +155,7 @@ img {
   width: 45vw;
   margin-left: 10vw;
   float: left;
+  position: relative;
 }
 
 /* id nav */
@@ -178,14 +181,12 @@ img {
   color: #fff;
   opacity:0.6;
   font-size: 15px;
-  z-index: 4;
   text-decoration: none;
   font-family: 'Wellfleet';
   position: relative;
 }
 #nav li a:hover {
   color: #fff;
-  z-index: 4;
   opacity:1;
 }
 
@@ -240,7 +241,6 @@ img {
 #link_meta {
   width:  
   padding: 0 0;
-  z-index: 1;
   position: relative;
   margin-left: 5vw;
   float: left; 
@@ -249,6 +249,7 @@ img {
 
 /* project demo images */
 #IlliniLaundryDemo {
+  pointer-events: none;
   background: url('../img/IlliniLaundryDemo.jpg')no-repeat;
   width: 30%;
   margin: 0 0;
@@ -258,6 +259,7 @@ img {
 
 /* projects or something like that */
 #Intro{
+  pointer-events: none;
   background:url('../img/Intro.jpg') 50% 0 no-repeat fixed;
   /* (image source) Designed by Tirachard / Freepik */
   color: #fff;
@@ -265,41 +267,40 @@ img {
   margin: auto auto;
   background-size: cover;
   width: 100%;
-  z-index: -1;
 }
 #IlliniLaundry{
+  pointer-events: none;
   background-color: #fff;
   color: #4d4d4d;
   height: 100vh;
   margin: auto auto;
   overflow: hidden;
   width: 100%;
-  z-index: -1;
 }
 #HackIllinois{
+  pointer-events: none;
   background: url(../img/Bardeen_Quad.jpg) 50% 0 no-repeat fixed;
   color: #4d4d4d;
   height: 100vh;
   margin: auto auto;
   overflow: hidden;
   background-size: cover;
-  z-index: -1;
 }
 #ACMChatbot{
+  pointer-events: none;
   background-color: #fff;
   color: #4d4d4d;
   height: 100vh;
   margin: auto auto;
   overflow: hidden;
   width: 100%;
-  z-index: -1;
 }
 #andmore{
+  pointer-events: none;
   background: url(../img/Siebel.jpg) 50% 0 no-repeat fixed;
   color: #fff;
   height: 100vh;
   margin: auto auto;
   overflow: hidden;
   background-size: cover;
-  z-index: -1;
 }
