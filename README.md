@@ -15,6 +15,8 @@ built with :heartpulse:
 
 Add HTTPS support
 
+Fix Navigation Links again
+
 ~Fix Navigation Links becoming unclickable when scrolling over project descriptions~ Completed 5/4/18
 
 ~Fix unsafe script error~ Completed 9/12/17
