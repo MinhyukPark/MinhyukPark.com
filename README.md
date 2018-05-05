@@ -26,6 +26,8 @@ Fix favicon
 ## Citation
 Special thanks to all of these sites below!
 
+[Pure CSS Scroll Animation Arrow](https://codepen.io/JakubHonisek/pen/qjpeeO "css arrow")
+
 [w3Schools.com](https://www.w3schools.com/cssrefl "css reference")
 
 [Parallax Scrolling Effect](https://1stwebdesigner.com/parallax-scrolling-tutorial/ "1stWebdesigner tutorial")
