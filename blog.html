@@ -6,11 +6,13 @@ layout: blog
   {% for post in site.posts %}
     <article class="post">
 
+      <div id="post_title_link">
       <h3>
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
      </h3>
+      </div>
 
-      <div class="brief_summary">
+      <div id="brief_summary">
         {{ post.excerpt }}
       </div>
 

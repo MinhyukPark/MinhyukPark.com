@@ -136,9 +136,6 @@ h3 {
   position: relative;
 }
 
-h3 a {
-  color: #313128;
-}
 
 #header {
   width: 100%;
@@ -527,19 +524,56 @@ p {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
 }
 
-.post a {
-  color: #3333ff;
+#post_title h3 {
+  color: #313128;    
   text-decoration: none;
-  font-size: 25px;
+  font-size: 50px;
   font-family: "Arvo";
-  opacity: 0.7;
 }
 
-#post a:hover {
+#post_title_link a {
+  color: #313128;    
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Arvo";
+  opacity: 0.9;
+}
+
+#post_title_link a:hover {
   opacity: 1;
 }
 
-.brief_summary {
+
+#post_link a {
+  color: #3333ff;
+  text-decoration: none;
+  font-family: "Arvo";
+  opacity: 0.7; 
 }
+
+#post_link a:hover {
+  opacity: 1;
+}
+
+#brief_summary {
+  letter-spacing: 2px;
+  font-family: "champagne";
+  font-size: 20px;
+}
+
+#post_content {
+  font-family: "Arvo";
+  font-size: 20px;
+  color: #404040;
+}
+
+
+#date {
+  font-family: "Arvo";
+  color: #313128;
+  font-size: 14px; 
+}
+
