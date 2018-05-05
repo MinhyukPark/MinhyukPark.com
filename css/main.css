@@ -1,10 +1,21 @@
 /* where old reset used to be */
+@font-face {
+    font-family: champagne;
+    src: url("../fonts/champagne_limousines/Champagne & Limousines.ttf");
+}
+
+
+@font-face {
+    font-family: champagne_bold;
+    src: url("../fonts/champagne_limousines/Champagne & Limousines Bold.ttf");
+}
+
 .center {
   margin: 0 auto;
 }
 .content{
   margin: auto auto;
-  width: 50vw;
+  width: 100vw;
   }
 
 .header_content{
@@ -39,7 +50,6 @@
 }
 
 .float_custom > * {
-  margin: 150px 0 0 0;
   float: left;
 }
 
@@ -104,16 +114,16 @@ h2 {
   padding: 0;
 }
 h3 {
-  font-family: Oswald;
+  /* font-family: "champagne_bold"; */
+  font-family: "Arvo";
   font-weight: normal;
-  font-size: 20px;
+  font-size: 30px;
+  letter-spacing: 3px;
   text-align: left;
   /*margin: 5px 0;*/
   padding: 0 0;
   z-index: 0;
   position: relative;
-  left: 200px;
-  float: right;
 }
 
 #header {
@@ -122,6 +132,27 @@ h3 {
   height: 7%;
   position: fixed;
   margin-top: 3%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#img {
+  overflow:auto;
+  margin-top: 17vh;
+  margin-left: 20vw;
+  width: 20vw;
+  height: auto;
+  border: 1px solid grey;
+}
+
+#description {
+  margin-top: 10%;
+  width: 45vw;
+  margin-left: 10vw;
+  float: left;
 }
 
 /* id nav */
@@ -167,7 +198,8 @@ h3 {
   font-size: 30px;
   margin-top: 15px;
   color: #fff;
-  font-family:"Wellfleet";
+  font-family:"champagne";
+  letter-spacing: 3px;
   font-weight: bold;
 }
 
@@ -177,12 +209,15 @@ h3 {
   text-decoration: none;
   float: left;
   font-size: 30px;
-  margin-top: 100px;
+  margin-top: 20vh;
+  margin-left: 20vw;
   color: #fff;
-  font-family:"Wellfleet";
+  font-family:"champagne";
   font-weight: bold;
+  letter-spacing: 3px;
 }
 
+/* github */
 #link_logo a:hover {
   text-shadow: 2px 2px 10px #262626;
   filter: dropshadow(color=#262626, offx=2, offy=2);
@@ -194,7 +229,7 @@ h3 {
   float: left;
   font-size: 25px;
   margin-top: 10px;
-  font-family: "Wellfleet";
+  font-family: "Arvo";
   opacity: 0.7;
 }
 
@@ -203,11 +238,12 @@ h3 {
 }
 
 #link_meta {
+  width:  
   padding: 0 0;
   z-index: 1;
   position: relative;
-  left: 150px;
-  float: right; 
+  margin-left: 5vw;
+  float: left; 
 }
 
 
