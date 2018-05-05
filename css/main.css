@@ -181,6 +181,13 @@ h3 {
     margin-top: 25vh;
 }
 
+#blog_header_link a {
+    color: #313128;
+    text-decoration: none;
+}
+
+#blog_header_link a:hover {
+}
 
 
 #mobile_header {
