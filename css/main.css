@@ -14,14 +14,19 @@
   margin: 0 auto;
 }
 .content{
+  height: 100%;
   margin: auto auto;
-  width: 100vw;
+  width: 100%;
   }
 
-.header_content{
-  margin: auto auto;
-  width: 100vw;
+.header_content > * {
+  float: left;
 }
+
+#header_content {
+  height: 100%;
+}
+
 .clear {
   clear: both;
 }
@@ -94,6 +99,9 @@ body{
   width: 100%;
 }
 
+#hi_message {
+}
+
 /* h1 - h3 */
 h1 {
   font-family:"Arvo";
@@ -152,26 +160,32 @@ p {
 
 #img {
   overflow:auto;
-  margin-top: 17vh;
+  margin-top: 14vh;
   margin-left: 20vw;
   width: 20vw;
   height: auto;
   border: 1px solid grey;
 }
 
+.center_mobile_img {
+  margin-top: 17vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 33%;
+}
 
 #mobile_img {
-  overflow:auto;
-  margin-top: 10vh;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  width: 50vw;
-  height: auto;
   border: 1px solid grey;
+  height: 100%;
+  
 }
 
 #description {
-  margin-top: 10%;
+  margin-top: 14vh;
   width: 45vw;
   margin-left: 10vw;
   float: left;
@@ -181,8 +195,8 @@ p {
 
 
 #mobile_description {
-  margin-top: 10%;
-  width: 70vw;
+  margin-top: 7vh;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -191,8 +205,9 @@ p {
 
 /* id nav */
 #nav {
-  width: 65vw;
-  float: right;
+  height: 100%;
+  width: 69%;
+  float: left; 
   margin-right: 0px;
 }
 
@@ -202,7 +217,9 @@ p {
 }
 
 #nav li{
-  margin-top: 25px;
+  height: 100%;
+  display: flex;
+  align-items: center;
   list-style: none;
   margin-right: 5%;
   float: right;
@@ -254,13 +271,20 @@ p {
 }
 
 /* main MINHYUK PARK */
+#logo {
+  height: 100%;
+  width: 30%;
+}
+
 #logo a {
+  height: 100%;
   color: #fff;
   text-decoration: none;
   float: left;
-  margin-left: 10%;
+  margin-left: 10vw;
+  display: flex;
+  align-items: center;
   font-size: 30px;
-  margin-top: 15px;
   color: #fff;
   font-family:"champagne";
   letter-spacing: 3px;
@@ -389,8 +413,7 @@ p {
  justify-content: center;
  align-items: center;
  width: 100vw;
- margin-top: 40vh;
- height: 0vh;
+ height: 100%;
 }
 
 .chevron {
