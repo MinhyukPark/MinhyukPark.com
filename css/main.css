@@ -128,7 +128,16 @@ h3 {
 #header {
   width: 100%;
   background: url('../img/header-bg.png');
-  height: 7%;
+  height: 7vh; 
+  position: fixed;
+  margin-top: 3vh;
+}
+
+
+#mobile_header {
+  width: 100%;
+  background: url('../img/header-bg.png');
+  height: 3vh; 
   position: fixed;
   margin-top: 3vh;
 }
@@ -150,6 +159,17 @@ p {
   border: 1px solid grey;
 }
 
+
+#mobile_img {
+  overflow:auto;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  height: auto;
+  border: 1px solid grey;
+}
+
 #description {
   margin-top: 10%;
   width: 45vw;
@@ -157,6 +177,17 @@ p {
   float: left;
   position: relative;
 }
+
+
+
+#mobile_description {
+  margin-top: 10%;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
 
 /* id nav */
 #nav {
@@ -190,6 +221,38 @@ p {
   opacity:1;
 }
 
+
+#mobile_nav {
+  width: 65vw;
+  float: right;
+  margin-right: 0px;
+}
+
+#mobile_nav ul{
+  list-style: none;
+  float: right;
+}
+
+#mobile_nav li{
+  margin-top: 20px;
+  list-style: none;
+  margin-right: 5%;
+  float: right;
+}
+
+#mobile_nav li a {
+  color: #fff;
+  opacity:0.6;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: 'Wellfleet';
+  position: relative;
+}
+#mobile_nav li a:hover {
+  color: #fff;
+  opacity:1;
+}
+
 /* main MINHYUK PARK */
 #logo a {
   color: #fff;
@@ -198,6 +261,20 @@ p {
   margin-left: 10%;
   font-size: 30px;
   margin-top: 15px;
+  color: #fff;
+  font-family:"champagne";
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+
+#mobile_logo a {
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  margin-left: 10%;
+  font-size: 30px;
+  margin-top: 10px;
   color: #fff;
   font-family:"champagne";
   letter-spacing: 3px;
