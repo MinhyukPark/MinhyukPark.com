@@ -444,14 +444,13 @@ p {}
 }
 
 #mobile_Intro {
-    background: url('../img/Intro.jpg');
+    background: url('../img/Intro.jpg') no-repeat fixed;
     /* (image source) Designed by Tirachard / Freepik */
     color: #fff;
     height: 100vh;
     width: 100%;
     background-position: 0% 50%;
     background-size: cover;
-    position: relative;
 }
 #IlliniLaundry {
     background-color: #fff;
@@ -472,13 +471,12 @@ p {}
 }
 
 #mobile_HackIllinois {
-    background: url(../img/Bardeen_Quad.jpg) 50% 0 no-repeat fixed;
+    background: url(../img/Bardeen_Quad.jpg) no-repeat fixed;
     color: #4d4d4d;
     height: 100vh;
     width: 100%;
     background-position: 0% 50%;
     background-size: cover;
-    position: relative;
 }
 
 #ACMChatbot {
@@ -500,13 +498,12 @@ p {}
 }
 
 #mobile_andmore {
-    background: url(../img/Siebel.jpg) 50% 0 no-repeat fixed;
+    background: url(../img/Siebel.jpg) no-repeat fixed;
     color: #fff;
     height: 100vh;
     width: 100%;
     background-position: 0% 50%;
     background-size: cover;
-    position: relative;
 }
 
 /* Pure CSS SCroll Animation Arrow */
