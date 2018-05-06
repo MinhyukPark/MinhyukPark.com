@@ -354,6 +354,7 @@ p {}
     font-family: "champagne";
     letter-spacing: 3px;
     font-weight: bold;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 /* github link*/
@@ -443,16 +444,6 @@ p {}
     width: 100%;
 }
 
-#mobile_Intro {
-    background: url('../img/Intro.jpg');
-    /* (image source) Designed by Tirachard / Freepik */
-    color: #fff;
-    height: 100vh;
-    width: 100%;
-    background-position: 0% 50%;
-    background-size: cover;
-    position: relative;
-}
 #IlliniLaundry {
     background-color: #fff;
     color: #4d4d4d;
@@ -471,16 +462,6 @@ p {}
     background-size: cover;
 }
 
-#mobile_HackIllinois {
-    background: url(../img/Bardeen_Quad.jpg) 50% 0 no-repeat fixed;
-    color: #4d4d4d;
-    height: 100vh;
-    width: 100%;
-    background-position: 0% 50%;
-    background-size: cover;
-    position: relative;
-}
-
 #ACMChatbot {
     background-color: #fff;
     color: #4d4d4d;
@@ -497,16 +478,6 @@ p {}
     margin: auto auto;
     overflow: hidden;
     background-size: cover;
-}
-
-#mobile_andmore {
-    background: url(../img/Siebel.jpg) 50% 0 no-repeat fixed;
-    color: #fff;
-    height: 100vh;
-    width: 100%;
-    background-position: 0% 50%;
-    background-size: cover;
-    position: relative;
 }
 
 /* Pure CSS SCroll Animation Arrow */
