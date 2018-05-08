@@ -481,12 +481,13 @@ p {}
 }
 
 #mobile_andmore {
-    background: url(../img/Siebel.jpg) no-repeat fixed;
+    background: url(../img/Siebel.jpg) 50% 0 no-repeat fixed;
     color: #fff;
-    height: 100vh;
+    height: 100%;
     margin: auto auto;
     overflow: hidden;
     background-size: cover;
+    width: 100%;
 }
 
 /* Pure CSS SCroll Animation Arrow */
