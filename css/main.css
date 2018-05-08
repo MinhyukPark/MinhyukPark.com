@@ -278,7 +278,7 @@ p {}
     opacity: 0.6;
     font-size: 15px;
     text-decoration: none;
-    font-family: 'Wellfleet';
+    font-family: 'champagne_bold';
     position: relative;
 }
 
@@ -482,7 +482,7 @@ p {}
     height: 100vh;
     margin: auto auto;
     overflow: hidden;
-    background-size: auto 100%;
+    background-size: auto 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
