@@ -13,9 +13,9 @@ built with :heartpulse:
 [MinhyukPark.com](https://minhyukpark.com "Minhyuk Park's Website")
 ## TODO
 
-Add HTTPS support
+~Add HTTPS support~ Completed 5/8/18
 
-Fix Navigation Links again
+~Fix Navigation Links again~ Completed 5/8/18
 
 ~Fix Navigation Links becoming unclickable when scrolling over project descriptions~ Completed 5/4/18
 
