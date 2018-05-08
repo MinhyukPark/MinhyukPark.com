@@ -480,16 +480,6 @@ p {}
     background-size: cover;
 }
 
-#mobile_andmore {
-    background: url(../img/Siebel.jpg) 50% 0 no-repeat fixed;
-    color: #fff;
-    height: 100vh;
-    margin: auto auto;
-    overflow: hidden;
-    background-size: cover;
-    width: 100%;
-}
-
 /* Pure CSS SCroll Animation Arrow */
 
 .container {
