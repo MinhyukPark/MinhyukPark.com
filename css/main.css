@@ -337,9 +337,8 @@ p {}
     align-items: center;
     font-size: 30px;
     color: #fff;
-    font-family: "champagne";
+    font-family: "champagne-bold";
     letter-spacing: 3px;
-    font-weight: bold;
 }
 
 
@@ -351,9 +350,8 @@ p {}
     font-size: 30px;
     margin-top: 10px;
     color: #fff;
-    font-family: "champagne";
+    font-family: "champagne-bold";
     letter-spacing: 3px;
-    font-weight: bold;
     -webkit-transform: translate3d(0,0,0);
 }
 
@@ -367,8 +365,7 @@ p {}
     margin-top: 20vh;
     margin-left: 20vw;
     color: #fff;
-    font-family: "champagne";
-    font-weight: bold;
+    font-family: "champagne-bold";
     letter-spacing: 3px;
 }
 
@@ -408,8 +405,7 @@ p {}
     margin-top: 20vh;
     margin-left: 20vw;
     color: #fff;
-    font-family: "champagne";
-    font-weight: bold;
+    font-family: "champagne-bold";
     letter-spacing: 3px;
 }
 
