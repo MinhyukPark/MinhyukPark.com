@@ -13,7 +13,7 @@ layout: blog
         </div>
 
         <div id="brief_summary">
-            {{ post.excerpt }}
+            {{ post.excerpt | truncatewords:100 }}
         </div>
 
         <div id="post_link">
