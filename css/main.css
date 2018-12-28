@@ -553,7 +553,9 @@ p {}
     }
 }
 
-.posts {}
+.posts {
+    background-color: #ffffff;
+}
 
 .post {
     width: 90%;
