@@ -553,8 +553,10 @@ p {}
     }
 }
 
+.entire_blog {
+    background-color:#ffffff;
+}
 .posts {
-    background-color: #ffffff;
 }
 
 .post {
