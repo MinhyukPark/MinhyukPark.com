@@ -62,17 +62,6 @@
     float: left;
 }
 
-/* wait I thought we weren't supposed to be using classes but everyone uses it anyway why tho */
-
-/*
-.project_description {
-  font-family: 'Goudy Bookletter 1911', serif;
-  font-weight: normal;
-  font-size: 30px;
-  margin: 0 0;
-}
-*/
-
 .author_name_white {
     font-family: "Wellfleet";
     margin: 70px 0 0 75px;
@@ -87,18 +76,6 @@
     font-size: 20px;
 }
 
-/*
-.project_description_right {
-  width: 800px;
-  margin: 0 auto;
-}
-*/
-
-/*
-.title_message{
-  margin: 200px 0;
-}
-*/
 
 /* my mind's telling me noooo but my */
 
@@ -108,7 +85,9 @@ body {
     width: 100%;
 }
 
-#hi_message {}
+#himessage h1 {
+    text-align: center;
+}
 
 /* h1 - h3 */
 
@@ -116,10 +95,7 @@ h1 {
     font-family: "Arvo";
     font-weight: normal;
     font-size: 55px;
-    text-align: center;
-    color: #fff;
-    margin: 0;
-    padding: 0;
+    text-align: left;
 }
 
 h2 {
@@ -146,7 +122,6 @@ h3 {
     position: relative;
 }
 
-
 #header {
     width: 100%;
     background: url('../img/header-bg.png');
@@ -154,7 +129,6 @@ h3 {
     position: fixed;
     margin-top: 3vh;
 }
-
 
 #blog_header {
     width: 100%;
@@ -189,47 +163,7 @@ h3 {
 #blog_header_link a:hover {
 }
 
-
-#mobile_header {
-    width: 100%;
-    background: url('../img/header-bg.png');
-    height: 3vh;
-    position: fixed;
-    margin-top: 3vh;
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
 p {}
-
-#img {
-    overflow: auto;
-    margin-top: 14vh;
-    margin-left: 20vw;
-    width: 20vw;
-    height: auto;
-    border: 1px solid grey;
-}
-
-.center_mobile_img {
-    margin-top: 17vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    height: 33%;
-}
-
-#mobile_img {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid grey;
-    height: 100%;
-
-}
 
 #description {
     margin-top: 14vh;
@@ -238,17 +172,6 @@ p {}
     float: left;
     position: relative;
 }
-
-
-
-#mobile_description {
-    margin-top: 7vh;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-
 
 /* id nav */
 
@@ -287,39 +210,6 @@ p {}
     opacity: 1;
 }
 
-
-#mobile_nav {
-    width: 65vw;
-    float: right;
-    margin-right: 0px;
-}
-
-#mobile_nav ul {
-    list-style: none;
-    float: right;
-}
-
-#mobile_nav li {
-    margin-top: 20px;
-    list-style: none;
-    margin-right: 5%;
-    float: right;
-}
-
-#mobile_nav li a {
-    color: #fff;
-    opacity: 0.6;
-    font-size: 15px;
-    text-decoration: none;
-    font-family: 'Wellfleet';
-    position: relative;
-}
-
-#mobile_nav li a:hover {
-    color: #fff;
-    opacity: 1;
-}
-
 /* main MINHYUK PARK */
 
 #logo {
@@ -339,20 +229,6 @@ p {}
     color: #fff;
     font-family: "champagne_bold";
     letter-spacing: 3px;
-}
-
-
-#mobile_logo a {
-    color: #fff;
-    text-decoration: none;
-    float: left;
-    margin-left: 10%;
-    font-size: 30px;
-    margin-top: 10px;
-    color: #fff;
-    font-family: "champagne_bold";
-    letter-spacing: 3px;
-    -webkit-transform: translate3d(0,0,0);
 }
 
 /* github link*/
@@ -391,7 +267,7 @@ p {}
 }
 
 #link_meta {
-    width: padding: 0 0;
+    padding: 0 0;
     position: relative;
     margin-left: 5vw;
     float: left;
@@ -416,19 +292,61 @@ p {}
     filter: dropshadow(color=#262626, offx=2, offy=2);
 }
 
+/* projects or something like that */
 
-
-/* project demo images */
-
-#IlliniLaundryDemo {
-    background: url('../img/IlliniLaundryDemo.jpg')no-repeat;
-    width: 30%;
-    margin: 0 0;
-    display: block;
-    position: relative;
+#tabs {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
 }
 
-/* projects or something like that */
+#mobiletabs {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#left {
+    width: 30%;
+    margin-top: 30vh;
+}
+
+#mobileleft {
+    height: 25%;
+    margin-top: 30%;
+}
+
+
+#img {
+}
+
+img {
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#mobileimg img {
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#right {
+    width: 65%;
+    margin-top: 30vh; 
+    margin-left: 5%;
+}
+
+#mobileright {
+    height: 45%;
+    margin-top: 30%; 
+    margin-left: 5%;
+}
 
 #Intro {
     background: url('../img/Intro.jpg') 50% 0 no-repeat fixed;
@@ -440,7 +358,7 @@ p {}
     width: 100%;
 }
 
-#IlliniLaundry {
+#Undergraduate {
     background-color: #fff;
     color: #4d4d4d;
     height: 100vh;
@@ -449,7 +367,7 @@ p {}
     width: 100%;
 }
 
-#HackIllinois {
+#Graduate {
     background: url(../img/Bardeen_Quad.jpg) 50% 0 no-repeat fixed;
     color: #4d4d4d;
     height: 100vh;
@@ -458,7 +376,7 @@ p {}
     background-size: cover;
 }
 
-#ACMChatbot {
+#Work {
     background-color: #fff;
     color: #4d4d4d;
     height: 100vh;
@@ -476,15 +394,29 @@ p {}
     background-size: cover;
 }
 
-#mobile_andmore {
-    background: url(../img/Siebel.jpg);
-    color: #fff;
-    height: 100vh;
-    margin: auto auto;
-    overflow: hidden;
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+/* slideshow */
+.slidecontainer {
+}
+
+.slides {
+    display: none;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
 }
 
 /* Pure CSS SCroll Animation Arrow */
