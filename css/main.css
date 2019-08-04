@@ -133,7 +133,7 @@ h3 {
 
 #blog_header {
     width: 100%;
-    background: url('../img/blog_header.jpg');
+    /* background: url('../img/blog_header.jpg'); */
     background-position: 0% 50%;
     background-size: cover;
     height: 40vh;
@@ -314,6 +314,10 @@ p {}
     margin-top: 30vh;
 }
 
+#left h1 {
+    font-size: 34px;
+}
+
 #mobileleft {
     height: 25%;
     margin-top: 30%;
@@ -341,6 +345,10 @@ img {
     width: 65%;
     margin-top: 30vh; 
     margin-left: 5%;
+}
+
+#right h1 {
+    font-size-: 34px; 
 }
 
 #mobileright {
