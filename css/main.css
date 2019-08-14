@@ -133,7 +133,7 @@ h3 {
 
 #blog_header {
     width: 100%;
-    /* background: url('../img/blog_header.jpg'); */
+    background: url('../img/blog_header.jpg');
     background-position: 0% 50%;
     background-size: cover;
     height: 40vh;
