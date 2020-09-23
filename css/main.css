@@ -88,6 +88,7 @@ body {
 
 #himessage h1 {
     text-align: center;
+    margin-block-start: auto;
 }
 
 /* h1 - h3 */
@@ -435,7 +436,7 @@ img {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100%;
+    height: 50%;
 }
 
 .chevron {
@@ -512,6 +513,7 @@ img {
     text-decoration: none;
     font-size: 50px;
     font-family: "Arvo";
+    opacity: 0.9;
 }
 
 #post_title_link a {
@@ -545,9 +547,9 @@ img {
 }
 
 #post_content {
-    font-family: "Arvo";
+    letter-spacing: 2px;
+    font-family: "champagne";
     font-size: 20px;
-    color: #404040;
 }
 
 
