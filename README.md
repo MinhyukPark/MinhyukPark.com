@@ -10,6 +10,8 @@ built with :heartpulse:
 
 :mortar_board:*Since school is my priority at the moment, I tend to not do a lot of work on the website during the semester.*
 
+`jekyll serve` to rebuild the website.
+
 [MinhyukPark.com](https://minhyukpark.com "Minhyuk Park's Website")
 ## TODO
 
